@@ -1,0 +1,24 @@
+2021-09-26 13:10:51,482 INFO    MainThread:43040 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-26 13:10:51,483 INFO    MainThread:43040 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-26 13:10:51,484 INFO    MainThread:43040 [wandb_setup.py:_flush():69] setting login settings: {'mode': 'offline'}
+2021-09-26 13:10:51,485 INFO    MainThread:43040 [wandb_init.py:_log_setup():348] Logging user logs to d:\0020.Project\MLOps-Basics\wandb\offline-run-20210926_131051-3dnfvw2x\logs\debug.log
+2021-09-26 13:10:51,487 INFO    MainThread:43040 [wandb_init.py:_log_setup():349] Logging internal logs to d:\0020.Project\MLOps-Basics\wandb\offline-run-20210926_131051-3dnfvw2x\logs\debug-internal.log
+2021-09-26 13:10:51,490 INFO    MainThread:43040 [wandb_init.py:_jupyter_setup():300] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000021ED22B4730>
+2021-09-26 13:10:51,491 INFO    MainThread:43040 [wandb_init.py:init():381] calling init triggers
+2021-09-26 13:10:51,491 INFO    MainThread:43040 [wandb_init.py:init():386] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'CNN', 'dataset': 'CIFAR-100'}
+2021-09-26 13:10:51,492 INFO    MainThread:43040 [wandb_init.py:init():430] starting backend
+2021-09-26 13:10:51,492 INFO    MainThread:43040 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn, using: spawn
+2021-09-26 13:10:51,513 INFO    MainThread:43040 [backend.py:ensure_launched():135] starting backend process...
+2021-09-26 13:10:52,743 INFO    MainThread:43040 [backend.py:ensure_launched():139] started backend process with pid: 26176
+2021-09-26 13:10:52,744 INFO    MainThread:43040 [wandb_init.py:init():435] backend started and connected
+2021-09-26 13:10:52,827 INFO    MainThread:43040 [wandb_run.py:_label_probe_notebook():819] probe notebook
+2021-09-26 13:10:52,827 INFO    MainThread:43040 [wandb_run.py:_label_probe_notebook():826] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-09-26 13:10:52,828 INFO    MainThread:43040 [wandb_init.py:init():494] updated telemetry
+2021-09-26 13:10:52,832 INFO    MainThread:43040 [wandb_init.py:init():557] starting run threads in backend
+2021-09-26 13:10:57,853 INFO    MainThread:43040 [wandb_run.py:_console_start():1605] atexit reg
+2021-09-26 13:10:57,859 INFO    MainThread:43040 [wandb_run.py:_redirect():1479] redirect: SettingsConsole.WRAP
+2021-09-26 13:10:57,859 INFO    MainThread:43040 [wandb_run.py:_redirect():1516] Wrapping output streams.
+2021-09-26 13:10:57,860 INFO    MainThread:43040 [wandb_run.py:_redirect():1540] Redirects installed.
+2021-09-26 13:10:57,861 INFO    MainThread:43040 [wandb_init.py:init():582] run started, returning control to user process
+2021-09-26 13:10:57,864 INFO    MainThread:43040 [wandb_run.py:finish():1275] finishing run basic-intro/3dnfvw2x

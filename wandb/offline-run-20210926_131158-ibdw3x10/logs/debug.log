@@ -1,0 +1,23 @@
+2021-09-26 13:11:58,803 INFO    MainThread:43040 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-26 13:11:58,804 INFO    MainThread:43040 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-26 13:11:58,804 INFO    MainThread:43040 [wandb_setup.py:_flush():69] setting login settings: {'mode': 'offline'}
+2021-09-26 13:11:58,806 INFO    MainThread:43040 [wandb_init.py:_log_setup():348] Logging user logs to d:\0020.Project\MLOps-Basics\wandb\offline-run-20210926_131158-ibdw3x10\logs\debug.log
+2021-09-26 13:11:58,808 INFO    MainThread:43040 [wandb_init.py:_log_setup():349] Logging internal logs to d:\0020.Project\MLOps-Basics\wandb\offline-run-20210926_131158-ibdw3x10\logs\debug-internal.log
+2021-09-26 13:11:58,810 INFO    MainThread:43040 [wandb_init.py:init():381] calling init triggers
+2021-09-26 13:11:58,810 INFO    MainThread:43040 [wandb_init.py:init():386] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'CNN', 'dataset': 'CIFAR-100'}
+2021-09-26 13:11:58,811 INFO    MainThread:43040 [wandb_init.py:init():430] starting backend
+2021-09-26 13:11:58,811 INFO    MainThread:43040 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn, using: spawn
+2021-09-26 13:11:58,863 INFO    MainThread:43040 [backend.py:ensure_launched():135] starting backend process...
+2021-09-26 13:11:59,955 INFO    MainThread:43040 [backend.py:ensure_launched():139] started backend process with pid: 32460
+2021-09-26 13:11:59,957 INFO    MainThread:43040 [wandb_init.py:init():435] backend started and connected
+2021-09-26 13:12:00,027 INFO    MainThread:43040 [wandb_run.py:_label_probe_notebook():819] probe notebook
+2021-09-26 13:12:00,027 INFO    MainThread:43040 [wandb_run.py:_label_probe_notebook():826] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-09-26 13:12:00,028 INFO    MainThread:43040 [wandb_init.py:init():494] updated telemetry
+2021-09-26 13:12:00,049 INFO    MainThread:43040 [wandb_init.py:init():557] starting run threads in backend
+2021-09-26 13:12:05,075 INFO    MainThread:43040 [wandb_run.py:_console_start():1605] atexit reg
+2021-09-26 13:12:05,084 INFO    MainThread:43040 [wandb_run.py:_redirect():1479] redirect: SettingsConsole.WRAP
+2021-09-26 13:12:05,085 INFO    MainThread:43040 [wandb_run.py:_redirect():1516] Wrapping output streams.
+2021-09-26 13:12:05,109 INFO    MainThread:43040 [wandb_run.py:_redirect():1540] Redirects installed.
+2021-09-26 13:12:05,110 INFO    MainThread:43040 [wandb_init.py:init():582] run started, returning control to user process
+2021-09-26 13:12:05,119 INFO    MainThread:43040 [wandb_run.py:finish():1275] finishing run basic-intro/ibdw3x10

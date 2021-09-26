@@ -1,0 +1,19 @@
+2021-09-26 13:11:51,867 INFO    MainThread:43572 [internal.py:wandb_internal():86] W&B internal server running at pid: 43572, started at: 2021-09-26 13:11:51.846607
+2021-09-26 13:11:51,870 INFO    WriterThread:43572 [datastore.py:open_for_write():77] open: d:\0020.Project\MLOps-Basics\wandb\offline-run-20210926_131138-1v1kyrvy\run-1v1kyrvy.wandb
+2021-09-26 13:11:51,871 DEBUG   HandlerThread:43572 [handler.py:handle_request():126] handle_request: run_start
+2021-09-26 13:12:16,282 DEBUG   HandlerThread:43572 [meta.py:__init__():40] meta init
+2021-09-26 13:12:16,283 DEBUG   HandlerThread:43572 [meta.py:__init__():54] meta init done
+2021-09-26 13:12:16,308 DEBUG   HandlerThread:43572 [meta.py:probe():211] probe
+2021-09-26 13:12:16,793 DEBUG   HandlerThread:43572 [meta.py:_setup_git():201] setup git
+2021-09-26 13:12:19,953 DEBUG   HandlerThread:43572 [meta.py:_setup_git():208] setup git done
+2021-09-26 13:12:19,953 DEBUG   HandlerThread:43572 [meta.py:_save_pip():58] save pip
+2021-09-26 13:12:19,962 DEBUG   HandlerThread:43572 [meta.py:_save_pip():72] save pip done
+2021-09-26 13:12:19,971 DEBUG   HandlerThread:43572 [meta.py:_save_conda():79] save conda
+2021-09-26 13:12:49,779 WARNING MainThread:43572 [internal.py:is_dead():364] Internal process exiting, parent pid 43040 disappeared
+2021-09-26 13:12:49,780 ERROR   MainThread:43572 [internal.py:wandb_internal():141] Internal process shutdown.
+2021-09-26 13:12:50,543 INFO    WriterThread:43572 [datastore.py:close():281] close: d:\0020.Project\MLOps-Basics\wandb\offline-run-20210926_131138-1v1kyrvy\run-1v1kyrvy.wandb
+2021-09-26 13:12:50,792 INFO    SenderThread:43572 [sender.py:finish():985] shutting down sender
+2021-09-26 13:13:01,654 DEBUG   HandlerThread:43572 [meta.py:_save_conda():87] save conda done
+2021-09-26 13:13:01,655 DEBUG   HandlerThread:43572 [meta.py:probe():249] probe done
+2021-09-26 13:13:02,277 INFO    HandlerThread:43572 [handler.py:finish():683] shutting down handler
+2021-09-26 13:13:02,280 INFO    MainThread:43572 [internal.py:handle_exit():76] Internal process exited

@@ -1,0 +1,32 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.8.11",
+    "heartbeatAt": "2021-09-26T04:14:15.127024",
+    "startedAt": "2021-09-26T04:13:43.124590",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9012",
+        "--control=9010",
+        "--hb=9009",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"bb7940d0-c83d-4c9f-9f62-a9655d141250\"",
+        "--shell=9011",
+        "--transport=\"tcp\"",
+        "--iopub=9013",
+        "--f=C:\\Users\\jhseo\\AppData\\Local\\Temp\\tmp-36724j8pepCjWcc3K.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/gum798/MLOps-Basics.git",
+        "commit": "0a2f7ef0729e4e37d8e0d7e1b6cf94be412afa2e"
+    },
+    "email": "gum798@gmail.com",
+    "root": "D:/0020.Project/MLOps-Basics",
+    "host": "I-jhseo-L3",
+    "username": "jhseo",
+    "executable": "C:\\Users\\jhseo\\Anaconda3\\envs\\mlops\\python.exe"
+}

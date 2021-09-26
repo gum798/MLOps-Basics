@@ -1,0 +1,11 @@
+2021-09-26 13:17:37,813 INFO    MainThread:40808 [internal.py:wandb_internal():86] W&B internal server running at pid: 40808, started at: 2021-09-26 13:17:37.776519
+2021-09-26 13:17:37,820 INFO    WriterThread:40808 [datastore.py:open_for_write():77] open: d:\0020.Project\MLOps-Basics\wandb\run-20210926_131722-t4bjphoj\run-t4bjphoj.wandb
+2021-09-26 13:17:37,822 DEBUG   HandlerThread:40808 [handler.py:handle_request():126] handle_request: check_version
+2021-09-26 13:17:37,872 DEBUG   SenderThread:40808 [sender.py:send():185] send: header
+2021-09-26 13:17:37,872 DEBUG   SenderThread:40808 [sender.py:send_request():199] send_request: check_version
+2021-09-26 13:21:00,444 WARNING MainThread:40808 [internal.py:is_dead():364] Internal process exiting, parent pid 29756 disappeared
+2021-09-26 13:21:00,445 ERROR   MainThread:40808 [internal.py:wandb_internal():141] Internal process shutdown.
+2021-09-26 13:21:00,506 INFO    WriterThread:40808 [datastore.py:close():281] close: d:\0020.Project\MLOps-Basics\wandb\run-20210926_131722-t4bjphoj\run-t4bjphoj.wandb
+2021-09-26 13:21:00,740 INFO    SenderThread:40808 [sender.py:finish():985] shutting down sender
+2021-09-26 13:21:01,447 INFO    HandlerThread:40808 [handler.py:finish():683] shutting down handler
+2021-09-26 13:21:01,448 INFO    MainThread:40808 [internal.py:handle_exit():76] Internal process exited

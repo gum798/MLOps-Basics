@@ -1,0 +1,16 @@
+2021-09-26 14:17:57,399 INFO    MainThread:14952 [internal.py:wandb_internal():86] W&B internal server running at pid: 14952, started at: 2021-09-26 14:17:57.366380
+2021-09-26 14:17:57,404 INFO    WriterThread:14952 [datastore.py:open_for_write():77] open: d:\0020.Project\MLOps-Basics\wandb\run-20210926_141743-1v3jx2z5\run-1v3jx2z5.wandb
+2021-09-26 14:17:57,405 DEBUG   HandlerThread:14952 [handler.py:handle_request():126] handle_request: check_version
+2021-09-26 14:17:57,453 DEBUG   SenderThread:14952 [sender.py:send():185] send: header
+2021-09-26 14:17:57,454 DEBUG   SenderThread:14952 [sender.py:send_request():199] send_request: check_version
+2021-09-26 14:17:57,591 DEBUG   SenderThread:14952 [sender.py:send():185] send: run
+2021-09-26 14:17:57,604 INFO    SenderThread:14952 [sender.py:_maybe_setup_resume():427] checking resume status for None/MLOps Basics/1v3jx2z5
+2021-09-26 14:17:59,862 DEBUG   HandlerThread:14952 [handler.py:handle_request():126] handle_request: run_start
+2021-09-26 14:17:59,862 INFO    SenderThread:14952 [dir_watcher.py:__init__():169] watching files in: d:\0020.Project\MLOps-Basics\wandb\run-20210926_141743-1v3jx2z5\files
+2021-09-26 14:17:59,863 INFO    SenderThread:14952 [sender.py:_start_run_threads():746] run started: 1v3jx2z5 with start time 1632633464
+2021-09-26 14:17:59,864 DEBUG   SenderThread:14952 [sender.py:send():185] send: summary
+2021-09-26 14:17:59,894 INFO    SenderThread:14952 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-09-26 14:18:00,876 INFO    Thread-12 :14952 [dir_watcher.py:_on_file_created():217] file/dir created: d:\0020.Project\MLOps-Basics\wandb\run-20210926_141743-1v3jx2z5\files\wandb-summary.json
+2021-09-26 14:18:04,993 INFO    Thread-12 :14952 [dir_watcher.py:_on_file_created():217] file/dir created: d:\0020.Project\MLOps-Basics\wandb\run-20210926_141743-1v3jx2z5\files\output.log
+2021-09-26 14:18:07,018 INFO    Thread-12 :14952 [dir_watcher.py:_on_file_modified():230] file/dir modified: d:\0020.Project\MLOps-Basics\wandb\run-20210926_141743-1v3jx2z5\files\output.log
+2021-09-26 14:18:09,039 INFO    Thread-12 :14952 [dir_watcher.py:_on_file_modified():230] file/dir modified: d:\0020.Project\MLOps-Basics\wandb\run-20210926_141743-1v3jx2z5\files\output.log

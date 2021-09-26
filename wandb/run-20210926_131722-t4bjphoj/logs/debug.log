@@ -1,0 +1,35 @@
+2021-09-26 13:17:22,264 INFO    MainThread:29756 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-26 13:17:22,265 INFO    MainThread:29756 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-26 13:17:22,265 INFO    MainThread:29756 [wandb_setup.py:_flush():69] setting login settings: {'api_key': '6b81ed7991f8d178de7351b87441b0b847d47dd0'}
+2021-09-26 13:17:22,267 INFO    MainThread:29756 [wandb_init.py:_log_setup():348] Logging user logs to d:\0020.Project\MLOps-Basics\wandb\run-20210926_131722-t4bjphoj\logs\debug.log
+2021-09-26 13:17:22,268 INFO    MainThread:29756 [wandb_init.py:_log_setup():349] Logging internal logs to d:\0020.Project\MLOps-Basics\wandb\run-20210926_131722-t4bjphoj\logs\debug-internal.log
+2021-09-26 13:17:22,271 INFO    MainThread:29756 [wandb_init.py:_jupyter_setup():300] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000025CCB152BE0>
+2021-09-26 13:17:22,272 INFO    MainThread:29756 [wandb_init.py:init():381] calling init triggers
+2021-09-26 13:17:22,273 INFO    MainThread:29756 [wandb_init.py:init():386] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'CNN', 'dataset': 'CIFAR-100'}
+2021-09-26 13:17:22,273 INFO    MainThread:29756 [wandb_init.py:init():430] starting backend
+2021-09-26 13:17:22,273 INFO    MainThread:29756 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn, using: spawn
+2021-09-26 13:17:22,331 INFO    MainThread:29756 [backend.py:ensure_launched():135] starting backend process...
+2021-09-26 13:17:24,267 INFO    MainThread:29756 [backend.py:ensure_launched():139] started backend process with pid: 40808
+2021-09-26 13:17:24,269 INFO    MainThread:29756 [wandb_init.py:init():435] backend started and connected
+2021-09-26 13:17:24,430 INFO    MainThread:29756 [wandb_run.py:_label_probe_notebook():819] probe notebook
+2021-09-26 13:17:24,431 INFO    MainThread:29756 [wandb_run.py:_label_probe_notebook():826] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-09-26 13:17:24,431 INFO    MainThread:29756 [wandb_init.py:init():494] updated telemetry
+2021-09-26 13:17:24,433 INFO    MainThread:29756 [wandb_init.py:init():517] communicating current version
+2021-09-26 13:17:29,440 WARNING MainThread:29756 [wandb_init.py:init():824] interrupted
+Traceback (most recent call last):
+  File "C:\Users\jhseo\Anaconda3\envs\mlops\lib\site-packages\wandb\sdk\wandb_init.py", line 803, in init
+    run = wi.init()
+  File "C:\Users\jhseo\Anaconda3\envs\mlops\lib\site-packages\wandb\sdk\wandb_init.py", line 518, in init
+    ret = backend.interface.communicate_check_version(
+  File "C:\Users\jhseo\Anaconda3\envs\mlops\lib\site-packages\wandb\sdk\interface\interface.py", line 791, in communicate_check_version
+    result = self._communicate(rec)
+  File "C:\Users\jhseo\Anaconda3\envs\mlops\lib\site-packages\wandb\sdk\interface\interface.py", line 539, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "C:\Users\jhseo\Anaconda3\envs\mlops\lib\site-packages\wandb\sdk\interface\interface.py", line 77, in get
+    is_set = self._object_ready.wait(timeout)
+  File "C:\Users\jhseo\Anaconda3\envs\mlops\lib\threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "C:\Users\jhseo\Anaconda3\envs\mlops\lib\threading.py", line 306, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
