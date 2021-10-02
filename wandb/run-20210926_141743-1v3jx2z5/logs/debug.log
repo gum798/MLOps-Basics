@@ -23,3 +23,56 @@ config: {}
 2021-09-26 14:18:04,957 INFO    MainThread:43012 [wandb_run.py:_redirect():1540] Redirects installed.
 2021-09-26 14:18:04,958 INFO    MainThread:43012 [wandb_init.py:init():582] run started, returning control to user process
 2021-09-26 14:18:04,959 INFO    MainThread:43012 [wandb_run.py:_config_callback():847] config_cb None None {'model_name': 'google/bert_uncased_L-2_H-128_A-2', 'lr': 0.01}
+2021-09-26 14:18:41,025 INFO    MainThread:43012 [wandb_init.py:_pause_backend():262] pausing backend
+2021-09-26 14:18:41,026 INFO    MainThread:43012 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-26 14:20:47,950 INFO    MainThread:43012 [wandb_init.py:_resume_backend():271] resuming backend
+2021-09-26 14:20:47,959 INFO    MainThread:43012 [wandb_init.py:_pause_backend():262] pausing backend
+2021-09-26 14:20:47,959 INFO    MainThread:43012 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-26 14:20:50,178 INFO    MainThread:43012 [wandb_init.py:_resume_backend():271] resuming backend
+2021-09-26 14:20:50,190 INFO    MainThread:43012 [wandb_run.py:_config_callback():847] config_cb None None {'model_name': 'google/bert_uncased_L-2_H-128_A-2', 'lr': 0.01}
+2021-09-26 14:20:52,181 INFO    MainThread:43012 [wandb_init.py:_pause_backend():262] pausing backend
+2021-09-26 14:20:52,181 INFO    MainThread:43012 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-26 14:21:28,853 INFO    MainThread:43012 [wandb_init.py:_resume_backend():271] resuming backend
+2021-09-26 14:21:28,859 INFO    MainThread:43012 [wandb_init.py:_pause_backend():262] pausing backend
+2021-09-26 14:21:28,860 INFO    MainThread:43012 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-26 14:21:30,022 INFO    MainThread:43012 [wandb_init.py:_resume_backend():271] resuming backend
+2021-09-26 14:21:30,041 INFO    MainThread:43012 [wandb_init.py:_pause_backend():262] pausing backend
+2021-09-26 14:21:30,042 INFO    MainThread:43012 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-26 14:21:32,035 INFO    MainThread:43012 [wandb_init.py:_resume_backend():271] resuming backend
+2021-09-26 14:21:32,063 INFO    MainThread:43012 [wandb_run.py:_config_callback():847] config_cb None None {'model_name': 'google/bert_uncased_L-2_H-128_A-2', 'lr': 0.01}
+2021-09-26 14:21:35,466 INFO    MainThread:43012 [wandb_init.py:_pause_backend():262] pausing backend
+2021-09-26 14:21:35,466 INFO    MainThread:43012 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-26 14:22:32,819 INFO    MainThread:43012 [wandb_init.py:_resume_backend():271] resuming backend
+2021-09-26 14:22:32,823 INFO    MainThread:43012 [wandb_init.py:_pause_backend():262] pausing backend
+2021-09-26 14:22:32,825 INFO    MainThread:43012 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-26 14:22:34,011 INFO    MainThread:43012 [wandb_init.py:_resume_backend():271] resuming backend
+2021-09-26 14:22:34,022 INFO    MainThread:43012 [wandb_init.py:_pause_backend():262] pausing backend
+2021-09-26 14:22:34,022 INFO    MainThread:43012 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-26 14:22:35,625 INFO    MainThread:43012 [wandb_init.py:_resume_backend():271] resuming backend
+2021-09-26 14:22:35,636 INFO    MainThread:43012 [wandb_run.py:_config_callback():847] config_cb None None {'model_name': 'google/bert_uncased_L-2_H-128_A-2', 'lr': 0.01}
+2021-09-26 14:22:38,229 INFO    MainThread:43012 [wandb_init.py:_pause_backend():262] pausing backend
+2021-09-26 14:22:38,230 INFO    MainThread:43012 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-26 14:55:15,952 INFO    MainThread:43012 [wandb_init.py:_resume_backend():271] resuming backend
+2021-09-26 14:55:15,963 INFO    MainThread:43012 [wandb_init.py:_pause_backend():262] pausing backend
+2021-09-26 14:55:15,964 INFO    MainThread:43012 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-26 14:55:16,654 INFO    MainThread:43012 [wandb_init.py:_resume_backend():271] resuming backend
+2021-09-26 14:55:16,674 INFO    MainThread:43012 [wandb_init.py:_pause_backend():262] pausing backend
+2021-09-26 14:55:16,676 INFO    MainThread:43012 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-26 14:55:22,440 INFO    MainThread:43012 [wandb_init.py:_resume_backend():271] resuming backend
+2021-09-26 14:55:22,454 INFO    MainThread:43012 [wandb_run.py:_config_callback():847] config_cb None None {'model_name': 'google/bert_uncased_L-2_H-128_A-2', 'lr': 0.01}
+2021-09-26 14:55:26,402 INFO    MainThread:43012 [wandb_init.py:_pause_backend():262] pausing backend
+2021-09-26 14:55:26,403 INFO    MainThread:43012 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-26 15:02:44,038 INFO    MainThread:43012 [wandb_init.py:_resume_backend():271] resuming backend
+2021-09-26 15:02:53,103 INFO    MainThread:43012 [wandb_init.py:_pause_backend():262] pausing backend
+2021-09-26 15:02:53,103 INFO    MainThread:43012 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-26 15:03:57,921 INFO    MainThread:43012 [wandb_init.py:_resume_backend():271] resuming backend
+2021-09-26 15:03:57,926 INFO    MainThread:43012 [wandb_init.py:_pause_backend():262] pausing backend
+2021-09-26 15:03:57,927 INFO    MainThread:43012 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-26 15:03:58,894 INFO    MainThread:43012 [wandb_init.py:_resume_backend():271] resuming backend
+2021-09-26 15:04:08,906 INFO    MainThread:43012 [wandb_init.py:_pause_backend():262] pausing backend
+2021-09-26 15:04:08,906 INFO    MainThread:43012 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-26 15:04:59,099 INFO    MainThread:43012 [wandb_init.py:_resume_backend():271] resuming backend
+2021-09-26 15:05:15,936 INFO    MainThread:43012 [wandb_run.py:_config_callback():847] config_cb None None {'model_name': 'google/bert_uncased_L-2_H-128_A-2', 'lr': 3e-05}
+2021-09-26 15:05:18,247 INFO    MainThread:43012 [wandb_run.py:_config_callback():847] config_cb ('_wandb', 'visualize', 'conf') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/confusion_matrix/v1', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': ''}}} None
+2021-09-26 15:05:19,882 INFO    MainThread:43012 [wandb_init.py:_pause_backend():262] pausing backend
+2021-09-26 15:05:19,882 INFO    MainThread:43012 [jupyter.py:save_ipynb():298] not saving jupyter notebook
